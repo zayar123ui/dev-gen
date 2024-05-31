@@ -1,3 +1,3 @@
-export const showLog = async ({ msg }: { msg: string }) => {
+export const showLog = async ( msg: string ) => {
   console.log(msg);
 };
