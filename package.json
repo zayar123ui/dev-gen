@@ -1,6 +1,6 @@
 {
   "name": "dev-gen",
-  "version": "0.0.5",
+  "version": "0.1.1",
   "description": "For developers by developer.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",

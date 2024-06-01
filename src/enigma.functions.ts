@@ -41,16 +41,3 @@ export const compare = async (
   const decrypted = await decrypt(encrypted);
   return plaintext === decrypted;
 };
-
-// Example usage
-(async () => {
-  const data = "Hello, World!";
-  const encryptedData = await encrypt(data);
-  console.log(`Encrypted data: ${encryptedData}`);
-
-  const decryptedData = await decrypt(encryptedData);
-  console.log(`Decrypted data: ${decryptedData}`);
-
-  const isMatch = await compare(data, encryptedData);
-  console.log(`Do they match? ${isMatch}`);
-})();
