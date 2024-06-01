@@ -1,6 +1,6 @@
 {
   "name": "dev-gen",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "For developers by developer.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -13,8 +13,17 @@
   ],
   "author": "zayar-dev",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zayar123ui/dev-gen"
+  },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "mongoose": "^8.4.0"
   }
 }
